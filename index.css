@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    border:border-box;
+    font:arial;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    background-image: url(https://img.icons8.com/?size=100&id=VPfiDfZrupDR&format=png&color=000000);
+    background-size:cover;
+    background-position: center;
+    height: 50px;
+    width:50%;
+    align-self:center;
+}
+.border{
+    border:5px solid transparent;
+}
+.border:hover{
+    border:5px solid silver;
+}
+.adress1{
+    font-size: 1rem;
+    color: white;
+    margin-left: 15px;
+
+}
+.adress2{
+    font: size 2rem;
+    color:white;
+    margin-left: 5px;
+}
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width:620px;
+    height:40px;
+    align-items: center;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width:50x;
+    height: 100%;
+    text-align:center;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.search{
+    width: 100%;
+    border:none;
+    font-size: 1rem;;
+    height: 40px;;
+
+}
+.search:hover{
+    border:  2px solid orange;
+}
+.searchicon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 208, 0);
+    border:none;
+    height:40px;
+    border-radius: 4px;
+}
+span{
+    font-size: 0.7rem;
+
+}
+.a1{
+    font-size:0.85 rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+.cart{
+    font-size: 0.85 rem;
+    font-weight: bold;
+}
+.menu{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;/*alernate way to do it is .ops p{inline-block)*/
+    justify-content:space-evenly;
+    color:white;
+    align-items: center;
+}
+.all{
+    align-items:center ;
+}
+.ops{
+    width: 80%;
+    display: flex;
+    align-items: center;;
+}
+.ops p{
+    padding-right: 15px;
+}
+.deals{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+.hero{
+    background-image: url(heroo.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    background-color: white;
+    font-size: 0.85rem;
+    width:80%;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg a{
+    color:blue
+}
+.shop{
+    background-color: #222f3d;
+    height:400px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.box{
+    background-color: white;
+    height: 400px;
+    width:23%
+}
+.box-content{
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
